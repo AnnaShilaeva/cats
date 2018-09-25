@@ -7,7 +7,7 @@ class  СatActions
     private $catList = [];
     private $countCat = 0;
     private $catAges = [];
-    private $allCates = 7;
+    private $allCates = 10;
     private const BEGIN_INDEX = 1;
     private const END_INDEX = 100;
     private const DIVIDER = 29;
