@@ -15,7 +15,7 @@ class  СatActions
     public function createCats ()
     {
         for ($i = 0; $i < $this->allCates; $i++) {
-            $this->catList[] = new Cat("Вася", $i + 1, ["белый", "с пятнышком"]);
+            $this->catList[] = new Cat("Вася", $i + 2, ["белый", "с пятнышком"]);
         }
     }
 
